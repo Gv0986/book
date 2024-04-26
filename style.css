@@ -39,14 +39,14 @@ body {
 }
 .book {
   width: 930px;
-  height: 665.5px;
+  height: 680.5px;
   transform: translate(-50%, -50%) rotatex(10deg) rotatey(-10deg);
   transform-style: preserve-3d;
 }
 
 .page {
   width: 423.5px;
-  height: 665.5px;
+  height: 680.5px;
   background: #84ca14;
   position: absolute;
   top: 0;
