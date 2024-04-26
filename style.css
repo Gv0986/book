@@ -38,15 +38,15 @@ body {
   color: c9c1c1;
 }
 .book {
-  width: 930px;
-  height: 680.5px;
+  width: 950px;
+  height: 690.5px;
   transform: translate(-50%, -50%) rotatex(10deg) rotatey(-10deg);
   transform-style: preserve-3d;
 }
 
 .page {
-  width: 423.5px;
-  height: 680.5px;
+  width: 435.5px;
+  height: 690.5px;
   background: #84ca14;
   position: absolute;
   top: 0;
