@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Lugrasimo&family=Sedan:ital@1&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -39,14 +41,14 @@ body {
 }
 .book {
   width: 950px;
-  height: 720.5px;
+  height: 740.5px;
   transform: translate(-50%, -50%) rotatex(10deg) rotatey(-10deg);
   transform-style: preserve-3d;
 }
 
 .page {
   width: 435.5px;
-  height: 720.5px;
+  height: 740.5px;
   background: #84ca14;
   position: absolute;
   top: 0;
@@ -1275,11 +1277,13 @@ body {
     linear-gradient(#808080, #0a0502) no-repeat;
 }
 .cover-front:nth-child(1) h1 {
-  font-family: "Lora", serif;
-  font-size: 35px;
-  color: whitesmoke;
-  margin-top: 35px;
-  text-transform: uppercase;
+  font-family: "Lugrasimo", cursive;
+  font-weight: 20;
+  font-style: italic;
+  font-size: 30px;
+  color: rgb(233, 232, 232);
+  margin-top: 70px;
+  text-transform: lowercase;
 }
 .cover-front:nth-child(1) h2 {
   font-family: "EB Garamond", serif;
@@ -1309,7 +1313,7 @@ p {
   left: calc(50% - 150px);
   font-size: 26px;
   font-family: "EB Garamond", serif;
-  color: rgba(22, 199, 2, 0.998);
+  color: rgba(243, 220, 216, 0.852);
   box-sizing: border-box;
   border-radius: 2px solid red;
   padding: 10px 15px;
